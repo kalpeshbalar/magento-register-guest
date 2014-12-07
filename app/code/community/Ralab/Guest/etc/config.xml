@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <modules>
+        <Ralab_Guest>
+            <version>1.0.0</version>
+        </Ralab_Guest>
+    </modules>
+    <global>
+        <models>
+			<guest>
+                <class>Ralab_Guest_Model</class>
+            </guest>
+        </models>
+        <helpers>
+			<guest>
+                <class>Ralab_Guest_Helper</class>
+            </guest>
+        </helpers>
+        <events>
+            <sales_order_place_after>
+                <observers>
+                    <guest>
+                        <class>guest/observer</class>
+                        <method>registerGuestUser</method>
+                    </guest>
+                </observers>
+            </sales_order_place_after>
+		</events>
+    </global>
+</config>

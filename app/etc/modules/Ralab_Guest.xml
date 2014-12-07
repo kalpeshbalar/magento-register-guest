@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Ralab_Guest>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Ralab_Guest>
+    </modules>
+</config>
