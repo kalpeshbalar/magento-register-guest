@@ -26,4 +26,4 @@ Magento CE 1.7+ only
 * Enable Guest to Customer Account > 'YES'
 
 
-![Screenshot1](https://github.com/kalpeshbalar/magento-register-guest/blob/master/screenshots/Test.png)
+![Screenshot1](screenshots/GuestUserRegister.png)
