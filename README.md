@@ -21,6 +21,6 @@ Magento CE 1.7+ only
 
 * Select Register Guest Convert 
 
-* Enable Guest to Customer Account > 'YES'
+* Enable Guest User Registration > 'YES'
 
 
