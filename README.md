@@ -1,6 +1,5 @@
-magento-register-guest
+Magento Extension for Auto Registering Guest User
 ======================
-
 
 Magento: Registered Customers from Guest users.
 
@@ -18,7 +17,6 @@ Magento CE 1.7+ only
 
 ## Usage
 
- 
 * Go to System > Configuration > Customer Configuration > Guest user register 
 
 * Select Register Guest Convert 
